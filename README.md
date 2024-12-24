@@ -1,5 +1,7 @@
 # ESP32-continued-conversation-assistant
 
+kommt noch
+
 # ESPHome unter Linux installieren und nutzen
 
 ## Installation
