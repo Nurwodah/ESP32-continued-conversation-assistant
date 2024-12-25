@@ -5,8 +5,8 @@ kommt noch
 # Install and use ESPHome with WSL
 
 ## User Instructions
-- Use **Bash** for commands prefixed with `$`.
-- Use **PowerShell** for commands prefixed with `>`.
+- Use WSL **Bash** for commands prefixed with `$`.
+- Use Windwows **PowerShell** for commands prefixed with `>`.
 
 ## 1. Install Python in WSL
 [Official Installation Manual](https://esphome.io/guides/installing_esphome)
