@@ -26,13 +26,7 @@ $ python3 -m virtuelleUmgebung venv
 $ source virtuelleUmgebung/bin/activate
 ```
 
-## Install ESPHome with pip
-```shell
-$ pip3 install esphome
-$ esphome version
-```
-
-## 2. Install USBIPD WIN
+## 2. Install and Use USBIPD WIN
 WSL does not have access to interfacing hardware by deafualt, but for programming the ESP32, we want to connect it via USB. With USBIPD one can make USB ports available to WSL.
 
 [Official Microsoft Manual](https://learn.microsoft.com/de-de/windows/wsl/connect-usb#install-the-usbipd-win-project)
@@ -41,7 +35,7 @@ usbipd-win is used to share USB devices from Windows to a Linux environment in W
 
 [Download USBIPD WIN](https://github.com/dorssel/usbipd-win/releases)
 
-## 3. USBIPD Usage
+### USBIPD Usage
 
 1. List USB Devices
 ```powershell
@@ -58,7 +52,13 @@ usbipd-win is used to share USB devices from Windows to a Linux environment in W
 > usbipd attach --wsl --busid <busid>
 ```
 
-## 4. ESPHome Usage
+## 3. Install and Use ESPHome
+```shell
+$ pip3 install esphome
+$ esphome version
+```
+
+### ESPHome Usage
 
 [CLI-Commands of ESPHome](https://esphome.io/guides/cli.html)
 
