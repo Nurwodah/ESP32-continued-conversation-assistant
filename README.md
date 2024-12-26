@@ -1,15 +1,16 @@
 # ESP32-continued-conversation-assistant
 
-kommt noch
+This configuration file is used to convert an [M5Stack ATOM Echo](https://shop.m5stack.com/products/atom-echo-smart-speaker-dev-kit) into a voice interface for [home assistant](https://www.home-assistant.io/voice_control/) so that a continued conversation can take place without having to speak the activation word again after [the assistant](https://www.nabucasa.com/config/assist/) has responded.
 
-# Install and use ESPHome with WSL
+The Atom Echo is programmed via USB interface under [WSL](https://learn.microsoft.com/de-de/windows/wsl/).
+
+# Install and use ESPHome under WSL
 
 ## User Instructions
 - Use WSL **Bash** for commands prefixed with `$`.
 - Use Windwows **PowerShell** for commands prefixed with `>`.
 
 ## 1. Install Python in WSL
-[Official Installation Manual](https://esphome.io/guides/installing_esphome)
 
 Check version
 ```shell
@@ -53,6 +54,9 @@ usbipd-win is used to share USB devices from Windows to a Linux environment in W
 ```
 
 ## 3. Install and Use ESPHome
+
+[Official Installation Manual](https://esphome.io/guides/installing_esphome)
+
 ```shell
 $ pip3 install esphome
 $ esphome version
@@ -60,9 +64,8 @@ $ esphome version
 
 ### ESPHome Usage
 
-[CLI-Commands of ESPHome](https://esphome.io/guides/cli.html)
+[ESPHome CLI-Commands](https://esphome.io/guides/cli.html)
 
-### Help
 ```bash
 $ esphome <some_command> --help
 ```
